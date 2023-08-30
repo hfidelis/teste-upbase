@@ -5,7 +5,7 @@ div {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: .4em;
+  gap: .4rem;
 
   cursor: pointer;
   color: $text-normal;
@@ -20,7 +20,7 @@ div {
   }
   > span {
     font-size: $text-fluid-12-20;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 

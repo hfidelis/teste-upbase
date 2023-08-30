@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Professional } from 'src/app/models/Professional';
 
 @Component({
   selector: 'app-shifts',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./shifts.component.scss']
 })
 export class ShiftsComponent {
-
+  dr_carolina: Professional = {
+    name: 'Carolina Magalhães',
+    picture: 'assets/profile-1.jpg'
+  }
 }

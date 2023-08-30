@@ -1,13 +1,18 @@
 $app-green: #006557;
 $app-highlight-green: #2DA347;
 $app-gray: #F8F8F8;
+$app-dark-gray: #d1d1d1;
 $app-white: #FFFFFF;
 $app-red: #E93B3B;
+$app-dark-red: #791d1d;
 $app-blue: #07689F;
+$app-dark-blue: #115074;
 
 $text-highlight: #334240;
 $text-normal: #424F4D;
 
+$text-fluid-12-16: clamp(0.75rem, calc(0.53rem + 1.13vw), 1rem);
 $text-fluid-12-20: clamp(0.75rem, calc(0.53rem + 1.13vw), 1.25rem);
 $text-fluid-16-22: clamp(1rem, calc(1.18rem + 0.26vw), 1.38rem);
 $text-fluid-20-30: clamp(1.25rem, calc(1.09rem + 0.66vw), 1.88rem);
+$text-fluid-30-40: clamp(1.88rem, calc(1.75rem + 0.63vw), 2.50rem);

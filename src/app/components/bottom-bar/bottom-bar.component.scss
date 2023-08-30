@@ -7,11 +7,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: .4em;
+  gap: .4rem;
   min-height: 8vh;
   width: 100%;
 
   background-color: $app-white;
-  box-shadow: 0em .4em 1.2em rgb(0, 0, 0 / 0.2);
-  padding: 1em;
+  box-shadow: 0rem .4rem 1.2rem rgb(0, 0, 0 / 0.2);
+  padding: 1rem;
 }
