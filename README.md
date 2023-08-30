@@ -1,27 +1,23 @@
-# TesteUpbase
+# Teste para vaga UpBase Consultoria
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+## Projeto desenvolvido utilizando Angular 🚀
+- **Libs/Dependências utilizadas** 📙
+- > **[angular-cli-ghpages](https://hfidelis.github.io/fipe-query/#/home) : Deploy no GitHub Pages**
+- > **[phosphoricons](https://hfidelis.github.io/fipe-query/#/home) : Ícones**
 
-## Development server
+## ACESSO 🌎
+- > **[https://hfidelis.github.io/teste-upbase/](https://hfidelis.github.io/teste-upbase/) : Via link, projeto em produção disponível para Desktop e Mobile responsivo.**
+## Teste local 🔧
+**Considerando que você tenha o NodeJS e o GIT em sua máquina:**
+- > **clone o projeto** ``git clone https://github.com/hfidelis/teste-upbase.git``
+- > **acesse o diretório do projeto** ``cd teste-upbase``
+- > **instale as dependências** ``npm install``
+##### **inicie o projeto na sua máquina** ✔️
+- > **Caso possua o Angular CLI** ``ng serve``
+- > **Caso não possua** ``npm run start``
+- > **O projeto vai estar disponível para acesso no seu navegador através da porta padrão http://localhost:4200**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Preview Web :computer:
+![Alt text](image.png)
+## Preview Mobile :iphone:
+![Alt text](image-1.png)
