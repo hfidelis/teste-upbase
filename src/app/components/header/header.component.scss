@@ -1,0 +1,34 @@
+@import 'variables.scss';
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+  min-height: 8vh;
+  width: 100%;
+  background-color: $app-green;
+
+  > h1 {
+    text-align: center;
+    width: 100%;
+    font-size: $text-fluid-16-22;
+    font-weight: 500;
+    color: $app-white;
+  }
+
+  > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    border: none;
+    background-color: transparent;
+
+    > i {
+      font-size: 1.875rem;
+      color: $app-white;
+    }
+  }
+}
