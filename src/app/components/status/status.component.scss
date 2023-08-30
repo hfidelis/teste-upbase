@@ -1,0 +1,33 @@
+@import 'variables.scss';
+
+.status {
+  display: flex;
+  gap: .4em;
+  width: 100vw;
+
+  padding: 1.2rem 2rem;
+
+  font-size: $text-fluid-12-20;
+  animation: show 2s cubic-bezier(0.23, 1, 0.320, 1);
+  > i {
+    font-weight: 700;
+    color: $text-highlight;
+  }
+  > p {
+    color: $text-normal;
+    > span {
+      color: $text-highlight;
+      font-weight: 700;
+    }
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
