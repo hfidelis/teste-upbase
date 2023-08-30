@@ -1,0 +1,115 @@
+@import 'variables.scss';
+
+.card {
+  width: 100vw;
+  padding: 1.4rem 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: .6rem;
+
+  border-top: 1px solid $app-dark-gray;
+  border-bottom: 1px solid $app-dark-gray;
+
+  animation: slideIn 3s cubic-bezier(0.23, 1, 0.320, 1);
+
+  .professional {
+    width: 100%;
+
+    display: flex;
+    gap: 1rem;
+
+    img {
+      width: clamp(4.38rem, calc(3.25rem + 5.63vw), 10.00rem);
+      height: clamp(4.38rem, calc(3.25rem + 5.63vw), 10.00rem);
+      border-radius: 50%;
+      object-fit: cover;
+      aspect-ratio: 1;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      gap: .6rem;
+
+      h2 {
+        font-weight: 700;
+        font-size: $text-fluid-20-30;
+        color: $text-highlight;
+      }
+
+      > button {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: .4rem;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        color: $app-highlight-green;
+        transition: all 400ms;
+        &:hover {
+          color: $app-green;
+        }
+        span, i {
+          font-size: $text-fluid-12-16;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .actions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    > button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: .4rem;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+
+      > i {
+        font-size: $text-fluid-30-40;
+        transition: all 400ms;
+      }
+      > span {
+        font-weight: 600;
+        font-size: $text-fluid-12-16;
+      }
+    }
+  }
+}
+
+.report_button {
+  color: $app-red;
+  &:hover {
+    color: $app-dark-red;
+  }
+}
+
+.rate_button {
+  color: $app-blue;
+  &:hover {
+    color: $app-dark-blue;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50vw);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
