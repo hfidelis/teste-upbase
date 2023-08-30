@@ -1,0 +1,7 @@
+<nav>
+  <app-nav-label *ngFor="let label of labels"
+  [icon]="label.icon"
+  [label]="label.label"
+  [isActive]="label.active"
+  ></app-nav-label>
+</nav>

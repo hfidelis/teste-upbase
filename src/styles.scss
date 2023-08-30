@@ -11,3 +11,10 @@
 html, body {
   width: 100%;
 }
+
+main {
+  min-height: 84vh;
+  width: 100%;
+
+  background-color: $app-gray;
+}

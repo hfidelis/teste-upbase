@@ -8,4 +8,6 @@ $app-blue: #07689F;
 $text-highlight: #334240;
 $text-normal: #424F4D;
 
+$text-fluid-12-20: clamp(0.75rem, calc(0.53rem + 1.13vw), 1.25rem);
 $text-fluid-16-22: clamp(1rem, calc(1.18rem + 0.26vw), 1.38rem);
+$text-fluid-20-30: clamp(1.25rem, calc(1.09rem + 0.66vw), 1.88rem);

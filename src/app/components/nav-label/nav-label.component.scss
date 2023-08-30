@@ -1,0 +1,29 @@
+@import 'variables.scss';
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: .4em;
+
+  cursor: pointer;
+  color: $text-normal;
+  transition: all 400ms;
+
+  &:hover {
+    color: $app-green;
+  }
+
+  > i {
+    font-size: $text-fluid-20-30;
+  }
+  > span {
+    font-size: $text-fluid-12-20;
+    font-weight: 500;
+  }
+}
+
+.active {
+  color: $app-green;
+}
